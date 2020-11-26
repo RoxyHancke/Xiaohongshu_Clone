@@ -17,6 +17,7 @@
   .masonry {
     column-count: 1;
   }
+}
 
   .masonry { /* Masonry container */
     margin: 1.5em auto;
@@ -31,6 +32,7 @@
   width: 40rpx;
   height: 40rpx;
 }
+
 .card > image{
   height: 533;
   width: 100%;
@@ -47,7 +49,8 @@
 
 .bottom-item {
   margin: 0 11rpx;
-  }
+  
+}
 
 .bottom-item p {padding: 0 0 25rpx 0;}
 
@@ -76,7 +79,7 @@ transition: 0.4s
 
 }
 
-.title {
+.title{
   color: red;
   font-weight: bold;
   font-size: 12rpx;
@@ -86,7 +89,6 @@ transition: 0.4s
 .name {
   color: blue;
 
-}
 }
 
 /* .far:hover{

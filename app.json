@@ -2,10 +2,11 @@
   "pages":[
     "pages/login/index",
     "pages/home/index",
-    "pages/home/profile",
-    "pages/home/create",
+    "pages/profile/profile",
+    "pages/create/create",
     "pages/stories/index",
-    "pages/stories/comment"
+    "pages/stories/comment",
+    "pages/userinfo/userinfo"
     
   ],
   "window":{

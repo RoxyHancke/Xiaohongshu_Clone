@@ -1,6 +1,4 @@
 
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"> -->
-
 <view class="container">
 
 <view class="masonry">
@@ -12,11 +10,9 @@
 
   <view class="bottom-item">
 
-    <view class="header">
+    <view>
 
-      <view class="title"> Title</view>
-
-      <!-- <navigator><i class="far fa-heart"></i><navigator> -->
+      <view class="title">Title</view>
 
     </view>
 
@@ -37,4 +33,3 @@
 
     
     
-
