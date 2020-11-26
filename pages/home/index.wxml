@@ -27,6 +27,104 @@
   </view>
 
   </view>
+
+  <view class="item">
+  <view class="card">
+    <image src="/pages/home/image-profile1.jpeg">  </image>
+
+  <view class="bottom-item">
+
+    <view>
+
+      <view class="title">Title</view>
+
+    </view>
+
+      <view>
+        <image class="avatar-round" src="/pages/home/image-profile2.jpeg"> </image>
+      </view>
+
+      <view class="name"> Name</view>
+
+    </view>
+
+  </view>
+
+  </view>
+
+
+  <view class="item">
+  <view class="card">
+    <image src="/pages/home/image-profile1.jpeg">  </image>
+
+  <view class="bottom-item">
+
+    <view>
+
+      <view class="title">Title</view>
+
+    </view>
+
+      <view>
+        <image class="avatar-round" src="/pages/home/image-profile2.jpeg"> </image>
+      </view>
+
+      <view class="name"> Name</view>
+
+    </view>
+
+  </view>
+
+  </view>
+  <view class="item">
+  <view class="card">
+    <image src="/pages/home/image-profile1.jpeg">  </image>
+
+  <view class="bottom-item">
+
+    <view>
+
+      <view class="title">Title</view>
+
+    </view>
+
+      <view>
+        <image class="avatar-round" src="/pages/home/image-profile2.jpeg"> </image>
+      </view>
+
+      <view class="name"> Name</view>
+
+    </view>
+
+  </view>
+
+  </view>
+
+  <view class="item">
+  <view class="card">
+    <image src="/pages/home/image-profile1.jpeg">  </image>
+
+  <view class="bottom-item">
+
+    <view>
+
+      <view class="title">Title</view>
+
+    </view>
+
+      <view>
+        <image class="avatar-round" src="/pages/home/image-profile2.jpeg"> </image>
+      </view>
+
+      <view class="name"> Name</view>
+
+    </view>
+
+  </view>
+
+  </view>
+
+  
   </view>
 </view>
 

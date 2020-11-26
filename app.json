@@ -9,6 +9,13 @@
     "pages/userinfo/userinfo"
     
   ],
+  "plugins": {
+    "sdkPlugin": {
+      "version": "3.15.0",
+      "provider": "wxc6b86e382a1e3294"
+    }
+  },
+
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",

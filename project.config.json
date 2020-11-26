@@ -62,6 +62,12 @@
         {
           "name": "pages/home/index",
           "pathName": "pages/home/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/index",
+          "pathName": "pages/login/index",
           "scene": null
         }
       ]

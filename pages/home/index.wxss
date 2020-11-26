@@ -22,7 +22,7 @@
   .masonry { /* Masonry container */
     margin: 1.5em auto;
     max-width: 768rpx;
-    column-gap: 1em;
+    column-gap: 0.5em;
     column-count: 2;
   
   }
@@ -34,7 +34,7 @@
 }
 
 .card > image{
-  height: 533;
+  height: 400rpx;
   width: 100%;
   object-fit: cover;
   border-radius: 5% 5% 0 0;
@@ -44,6 +44,9 @@
   box-shadow: 2rpx 2rpx 3rpx grey;
   border-style: grey;
   border-radius: 5%;
+  /* width: 400rpx; */
+  flex-direction: row;
+
 }
 
 
@@ -54,11 +57,11 @@
 
 .bottom-item p {padding: 0 0 25rpx 0;}
 
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .far {
   color: pink;
@@ -82,8 +85,11 @@ transition: 0.4s
 .title{
   color: red;
   font-weight: bold;
-  font-size: 12rpx;
-  padding: 16rpx 32rpx; 
+  font-size: 40rpx;
+  padding: 16rpx 32rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
 }
 
 .name {
