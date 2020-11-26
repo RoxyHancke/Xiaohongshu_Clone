@@ -1,0 +1,40 @@
+
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"> -->
+
+<view class="container">
+
+<view class="masonry">
+
+
+<view class="item">
+  <view class="card">
+    <image src="/pages/home/image-profile1.jpeg">  </image>
+
+  <view class="bottom-item">
+
+    <view class="header">
+
+      <view class="title"> Title</view>
+
+      <!-- <navigator><i class="far fa-heart"></i><navigator> -->
+
+    </view>
+
+      <view>
+        <image class="avatar-round" src="/pages/home/image-profile2.jpeg"> </image>
+      </view>
+
+      <view class="name"> Name</view>
+
+    </view>
+
+  </view>
+
+  </view>
+  </view>
+</view>
+
+
+    
+    
+

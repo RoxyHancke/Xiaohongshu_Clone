@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/login/index",
+    "pages/home/index",
+    "pages/home/profile",
+    "pages/home/create",
+    "pages/stories/index",
+    "pages/stories/comment"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Xiaohongshu",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
