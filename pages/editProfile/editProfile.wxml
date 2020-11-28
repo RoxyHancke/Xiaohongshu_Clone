@@ -1,0 +1,18 @@
+<!--pages/editProfile/editProfile.wxml-->
+<view>
+  <text>Edit your profile here!</text>
+</view>
+
+<view>
+  <form bindsubmit="formSubmit">
+    <text>Interest 1:</text>
+    <input name="interest1" type="text" placeholder="What is your interest"></input>
+    <text>Interest 2:</text>
+    <input name="interest2" type="text" placeholder="What is your interest"></input>
+    <text>Interest 3:</text>
+    <input name="interest3" type="text" placeholder="What is your interest"></input>
+    <text>Tell us more about you:</text>
+    <input name="shortBio" type="text" placeholder="bio"></input>
+    <button form-type="submit" type="primary" bindtap="goBackToProfile">Submit</button>
+  </form>
+</view>

@@ -6,7 +6,9 @@
     "pages/create/create",
     "pages/stories/index",
     "pages/stories/comment",
-    "pages/userinfo/userinfo"
+    "pages/userinfo/userinfo",
+    "pages/editProfile/editProfile"
+
     
   ],
   "plugins": {
@@ -22,7 +24,35 @@
     "navigationBarTitleText": "Xiaohongshu",
     "navigationBarTextStyle":"black"
   },
+  
+
+  "tabBar": {
+    "backgroundColor": "#FFF",
+    
+    "list": [
+    {
+      "pagePath": "pages/home/index",
+      "text": "Home",
+      "iconPath": "/pages/home.png",
+      "selectedIconPath": "/pages/home.png"
+    },
+
+    {
+      "pagePath": "pages/create/create",
+      "text": "Create",
+      "iconPath": "/pages/create.png",
+      "selectedIconPath": "/pages/create.png"
+    },
+
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "Profile",
+      "iconPath": "/pages/profile.png",
+      "selectedIconPath": "/pages/profile.png"
+    }
+    ]
+  },
+
   "style": "v2",
   "sitemapLocation": "sitemap.json"
-  
-}
+

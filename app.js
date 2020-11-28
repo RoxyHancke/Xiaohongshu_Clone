@@ -1,6 +1,7 @@
 //app.js
 
-const app = getApp();
+const app =getApp();
+
 App({
   onLaunch: function() {
     wx.BaaS = requirePlugin('sdkPlugin')
