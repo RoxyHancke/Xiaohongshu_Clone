@@ -30,6 +30,11 @@
 
 .buttonPink{
   color:white;
-  background-color:#b5838b;
+  background-color:#b5838d;
 }
+
+.name{
+  color: #b5838d;
+}
+
 
