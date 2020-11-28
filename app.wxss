@@ -8,10 +8,14 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
-
 .avatar {
   width: 100rpx;
   height: 100rpx;
   border-radius: 50%;
 
+}
+.card
+{
+  margin-left: 40rpx;
+  text-align: justify;
 }
