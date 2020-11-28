@@ -7,7 +7,7 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}
 
 .avatar {
   width: 100rpx;
@@ -15,6 +15,7 @@
   border-radius: 50%;
 
 }
+
 .header{
   color: #b5838b;
   font-size: 40rpx;
@@ -31,3 +32,4 @@
   color:white;
   background-color:#b5838b;
 }
+
