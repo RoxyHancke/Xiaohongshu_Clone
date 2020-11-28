@@ -1,16 +1,25 @@
 <!--pages/userinfo/userinfo.wxml-->
-<view>
-I'm {{items.nickname}}
+<view class="namebox">
+    <view>
+    <image class="avatar" src="{{items.avatar}}"></image>
+    </view>
+
+    <view style="margin-left: 50rpx">
+    I'm {{items.nickname}}
+    </view>
+    <view>
+      <button class="buttonPinkSmall" bindtap="editProfile">Edit Profile</button>
+    </view>
 </view>
 
+<view style="padding: 30rpx"> 
 <view>
-  <image src="{{items.avatar}}"></image>
-</view>
-
-<view> 
-  <text>My bio:</text>
-  <button wx:if="{{!items.interest1}}" type="primary" bindtap="editProfile">Edit Profile</button>
-<view wx:else>
+  <view>
 #{{items.interest1}} #{{items.interest2}} #{{items.interest3}}
+</view>
+<view>
+<text>My bio:</text>
+{{items.shortBio}}
+</view>
 </view>
 </view>

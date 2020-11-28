@@ -12,7 +12,9 @@ Page({
       })
       wx.setStorageSync('userInfo', user)
       console.log("result", data)
-      wx.navigateTo({
+      wx.switchTab({
+        url: '/pages/home/index',
+      })({
         url: '../home/index',
       })
       }, err => {

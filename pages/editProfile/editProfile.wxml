@@ -13,6 +13,6 @@
     <input name="interest3" type="text" placeholder="What is your interest"></input>
     <text>Tell us more about you:</text>
     <input name="shortBio" type="text" placeholder="bio"></input>
-    <button form-type="submit" type="primary" bindtap="goBackToProfile">Submit</button>
+    <button class="buttonPinkSmall" form-type="submit" bindtap="goBackToProfile">Submit</button>
   </form>
 </view>

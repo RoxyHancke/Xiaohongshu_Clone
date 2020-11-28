@@ -1,1 +1,7 @@
 /* pages/editProfile/editProfile.wxss */
+.buttonPinkSmall{
+  color:#b5838b;
+  border:2px solid #b5838b;
+  max-width:70%;
+  font-size:16px;
+}

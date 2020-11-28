@@ -45,7 +45,7 @@
     },
 
     {
-      "pagePath": "pages/profile/profile",
+      "pagePath": "pages/userinfo/userinfo",
       "text": "Profile",
       "iconPath": "/pages/profile.png",
       "selectedIconPath": "/pages/profile.png"

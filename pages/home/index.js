@@ -26,10 +26,10 @@ onLoad: function () {
   },
 
 
-
-toStories: function () {
+toStories: function (e) {
+  console.log("go to profile page",e);
   wx.switchTab({
-    url: 'pages/profile/profile',
+    url: 'pages/userinfo/userinfo',
   })
   },
 
