@@ -7,12 +7,29 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}
 
 .avatar {
   width: 100rpx;
   height: 100rpx;
   border-radius: 50%;
 
+}
+
+.header{
+  color: #b5838b;
+  font-size: 40rpx;
+  font-weight: 500;
+}
+
+.subheader{
+  color: #b5838b;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+
+.buttonPink{
+  color:white;
+  background-color:#b5838b;
 }
 

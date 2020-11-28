@@ -28,18 +28,18 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "enableEngineNative": false,
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
+    "enableEngineNative": false,
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
   "appid": "wx5a0f03d34f3398fe",
-  "projectname": "Xiaohongshu%20Clone",
+  "projectname": "Xiaohongshu_Clone",
   "debugOptions": {
     "hidedInDevtools": []
   },
@@ -48,6 +48,14 @@
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
     "plugin": {
       "list": []
     },
@@ -60,12 +68,21 @@
     "miniprogram": {
       "list": [
         {
+          "id": -1,
           "name": "pages/home/index",
           "pathName": "pages/home/index",
           "query": "",
           "scene": null
         },
         {
+          "id": -1,
+          "name": "pages/userinfo/userinfo",
+          "pathName": "pages/userinfo/userinfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
           "name": "pages/login/index",
           "pathName": "pages/login/index",
           "scene": null

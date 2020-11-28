@@ -1,17 +1,26 @@
 <!--index.wxml-->
 <view class="container"> 
-  
-  <view > 
-    <image class="avatar" src="/pages/login/avatar.png"></image>
-  </view>
-  <view class="name" > Name</view>
- <input name="name" placeholder="username" />
- <input password="password" placeholder="password" />
+  <!-- <view > 
+    <image src="https://cloud-minapp-37958.cloud.ifanrusercontent.com/1kistyO0pCTQ981b.jpeg"></image>
+  </view> -->
+<view class="header">
+<text>Welcome to Xiaohongshu</text>
+</view>
+<view style="margin-top:20rpx"> 
+<text class="subheader">Share your story with us!</text>
+</view>
 
- <view class="btn"> 
-  <button formType="Login" bindtap="goToHome"> Login</button>
- </view>
+<view style="margin-top:100rpx">
+
+    <view wx:if="{{userInfo}}">
+        <text class="subheader">Welcome back {{userInfo.nickName}}!</text>
+      </view>
+
+      <view wx:else>
+          <button class="buttonPink"open-type="getUserInfo" bindgetuserinfo="userInfoHandler">Log in</button>
+      </view>
   
+</view>
 
  
   
