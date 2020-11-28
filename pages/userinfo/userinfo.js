@@ -1,66 +1,31 @@
-// pages/userinfo/userinfo.js
+const app=getApp();
+
 Page({
-
-  /**
-   * Page initial data
-   */
   data: {
-
+    items:{},
   },
 
-  /**
-   * Lifecycle function--Called when page load
-   */
   onLoad: function (options) {
-
+  console.log('options',options);
+  const userProfile = new wx.BaaS.TableObject("_userprofile");
+// set up the query
+  let query = new wx.BaaS.Query();
+  query.compare("id","=",options.id); //need to remove dummy once navigation is established
+  userProfile.setQuery(query)
+  .find()
+  .then(
+    (res)=>{
+      console.log("query results",res)
+      this.setData({
+        items: res.data.objects[0],
+      })
+    }
+  )
+  },
+  editProfile: function(e){
+    wx.navigateTo({
+      url: `/pages/editProfile/editProfile?id=${this.data.items.id}`,
+    })
   },
 
-  /**
-   * Lifecycle function--Called when page is initially rendered
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page show
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page hide
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page unload
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * Page event handler function--Called when user drop down
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * Called when page reach bottom
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * Called when user click on the top right corner to share
-   */
-  onShareAppMessage: function () {
-
-  }
-})
+})  
