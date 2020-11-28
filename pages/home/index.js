@@ -33,12 +33,19 @@ onLoad: function () {
   },
 
 
-
 toNavigate: function () {
   wx.switchTab({
     url: 'pages/profile/profile',
   })
   },
+
+
+toStories: function (e) {
+  wx.navigateTo({
+    url: `/pages/stories/index?id=${e.currentTarget.id}`,
+  });
+}
+
 
 toStories: function (e) {
   wx.navigateTo({

@@ -1,2 +1,27 @@
 <!--pages/stories/index.wxml-->
-<text>pages/stories/index.wxml</text>
+<!-- <text>pages/stories/index.wxml</text> -->
+<view class="list"> 
+    <image  src="https://cloud-minapp-37958.cloud.ifanrusercontent.com/1khYZPZvoj6lCZJC.jpg" class="avatar" mode="aspectFill" />
+    <view class="list .item">{{usergetInfo.display_name}}</view>
+  </view>
+<view class="container">
+  <view  wx:for="{{stories}}" id="{{st.id}}" wx:for-item="st" wx:key="id" wx:for-index="stx">
+      <image class="image" src="{{st.image1}}"></image>
+      <!-- <view>{{st.id}}</view> -->
+      <scroll-view scroll-y="{{true}}" enable-flex="{{true}}" scroll-into-view="{{scrollInto}}" scroll-with-animation="{{true}}" style="height: 100rpx" class="list"></scroll-view>
+      <view class="card">{{st.storySubject}}</view>
+      <view>
+          <textarea class="card">{{st.subjectContent}}</textarea>
+    </view>
+</view>
+<!-- ******* -->
+<view class="custom_tapBar">
+  <form bindsubmit="">
+    <view class="section">
+      <input name="name" placeholder="" value="{{name}}"/>
+    </view>
+  </form>
+
+
+</view>
+</view>
