@@ -1,2 +1,16 @@
 <!--pages/userinfo/userinfo.wxml-->
-<text>pages/userinfo/userinfo.wxml</text>
+<view>
+I'm {{items.nickname}}
+</view>
+
+<view>
+  <image src="{{items.avatar}}"></image>
+</view>
+
+<view> 
+  <text>My bio:</text>
+  <button wx:if="{{!items.interest1}}" type="primary" bindtap="editProfile">Edit Profile</button>
+<view wx:else>
+#{{items.interest1}} #{{items.interest2}} #{{items.interest3}}
+</view>
+</view>
