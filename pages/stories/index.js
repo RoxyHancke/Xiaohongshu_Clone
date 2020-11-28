@@ -47,7 +47,6 @@ Page({
           .find()
           .then((res) => {
             // console.log("result from movie reviews query find",res );
-          
           this.setData({
             stories: res.data.objects, 
             comment_storyId:res.data.objects[0].id,

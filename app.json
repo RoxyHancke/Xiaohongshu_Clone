@@ -8,8 +8,6 @@
     "pages/stories/comment",
     "pages/userinfo/userinfo",
     "pages/editProfile/editProfile"
-
-    
   ],
   "plugins": {
     "sdkPlugin": {
@@ -50,9 +48,9 @@
       "iconPath": "/pages/profile.png",
       "selectedIconPath": "/pages/profile.png"
     }
-    ]
-  },
-
+    ],
   "style": "v2",
   "sitemapLocation": "sitemap.json"
+  }
+}
 

@@ -25,12 +25,15 @@ onLoad: function () {
 
   },
 
-
-
-toStories: function () {
-  wx.switchTab({
-    url: 'pages/profile/profile',
-  })
-  },
+// toStories: function () {
+//   wx.switchTab({
+//     url: 'pages/profile/profile',
+//   })
+//   },
+toStories: function (e) {
+  wx.navigateTo({
+    url: `/pages/stories/index?id=${e.currentTarget.id}`,
+  });
+}
 
 })
